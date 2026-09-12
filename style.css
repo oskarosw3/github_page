@@ -1,0 +1,101 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px 20px 40px 20px;
+}
+
+header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+header .tagline {
+  margin: 4px 0 0 0;
+  color: #555555;
+  font-style: italic;
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 25px 0;
+  padding: 0 0 12px 0;
+  border-bottom: 1px solid #333333;
+}
+
+nav a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav li.active a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 8px;
+}
+
+a {
+  color: #0000ee;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+.profile-photo {
+  float: left;
+  width: 300px;
+  margin: 0 20px 15px 0;
+  border: 1px solid #333333;
+}
+
+.interests-list li {
+  margin-bottom: 8px;
+}
+
+.pdf-frame {
+  border: 1px solid #cccccc;
+  margin-top: 15px;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+  color: #777777;
+  font-size: 12px;
+}
